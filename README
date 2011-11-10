@@ -1,0 +1,3 @@
+ blogs.yaclife.com
+
+ The sample code  was  based on CryptoExercise from apple.com, it provide you some basic 3DES and RSA encrypt functions, including how to encrypt and decrypt with 3DES and RSA, especially how to generate a SecKeyRef object for RSA ,  and some key files also provided for test.
