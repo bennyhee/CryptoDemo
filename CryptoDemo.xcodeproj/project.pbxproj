@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5A5A5D0146B5324000063FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A5A5CF146B5324000063FE /* UIKit.framework */; };
+		F5A5A5D2146B5324000063FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A5A5D1146B5324000063FE /* Foundation.framework */; };
+		F5A5A5D4146B5324000063FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A5A5D3146B5324000063FE /* CoreGraphics.framework */; };
+		F5A5A5DA146B5324000063FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5A5A5D8146B5324000063FE /* InfoPlist.strings */; };
+		F5A5A5DD146B5324000063FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5A5DC146B5324000063FE /* main.m */; };
+		F5A5A5E0146B5324000063FE /* CryptoDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5A5DF146B5324000063FE /* CryptoDemoAppDelegate.m */; };
+		F5A5A5E3146B5325000063FE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A5A5E1146B5324000063FE /* MainWindow.xib */; };
+		F5A5A5E9146B5325000063FE /* CryptoDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A5A5E7146B5325000063FE /* CryptoDemoViewController.xib */; };
+		F5A5A5F1146B5528000063FE /* CryptoExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5A5F0146B5527000063FE /* CryptoExtension.m */; };
+		F5A5A5FA146B56CB000063FE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A5A5F9146B56CB000063FE /* Security.framework */; };
+		F5A5A5FE146B576F000063FE /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5A5FC146B576F000063FE /* GTMBase64.m */; };
+		F5A5A602146B578C000063FE /* yaclife.pfx in Resources */ = {isa = PBXBuildFile; fileRef = F5A5A5FF146B578C000063FE /* yaclife.pfx */; };
+		F5A5A603146B578C000063FE /* yaclifecert.der in Resources */ = {isa = PBXBuildFile; fileRef = F5A5A600146B578C000063FE /* yaclifecert.der */; };
+		F5A5A604146B578C000063FE /* yaclifepubkey.der in Resources */ = {isa = PBXBuildFile; fileRef = F5A5A601146B578C000063FE /* yaclifepubkey.der */; };
+		F5A5A607146B5E7A000063FE /* CryptoDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5A606146B5E79000063FE /* CryptoDemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5A5A5CB146B5324000063FE /* CryptoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A5A5CF146B5324000063FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5A5A5D1146B5324000063FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5A5A5D3146B5324000063FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5A5A5D7146B5324000063FE /* CryptoDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CryptoDemo-Info.plist"; sourceTree = "<group>"; };
+		F5A5A5D9146B5324000063FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5A5A5DB146B5324000063FE /* CryptoDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CryptoDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F5A5A5DC146B5324000063FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5A5A5DE146B5324000063FE /* CryptoDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptoDemoAppDelegate.h; sourceTree = "<group>"; };
+		F5A5A5DF146B5324000063FE /* CryptoDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptoDemoAppDelegate.m; sourceTree = "<group>"; };
+		F5A5A5E2146B5324000063FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F5A5A5E8146B5325000063FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CryptoDemoViewController.xib; sourceTree = "<group>"; };
+		F5A5A5EF146B5527000063FE /* CryptoExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoExtension.h; sourceTree = "<group>"; };
+		F5A5A5F0146B5527000063FE /* CryptoExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoExtension.m; sourceTree = "<group>"; };
+		F5A5A5F9146B56CB000063FE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F5A5A5FB146B576F000063FE /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		F5A5A5FC146B576F000063FE /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		F5A5A5FD146B576F000063FE /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F5A5A5FF146B578C000063FE /* yaclife.pfx */ = {isa = PBXFileReference; lastKnownFileType = file; path = yaclife.pfx; sourceTree = "<group>"; };
+		F5A5A600146B578C000063FE /* yaclifecert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = yaclifecert.der; sourceTree = "<group>"; };
+		F5A5A601146B578C000063FE /* yaclifepubkey.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = yaclifepubkey.der; sourceTree = "<group>"; };
+		F5A5A605146B5E78000063FE /* CryptoDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoDemoViewController.h; sourceTree = "<group>"; };
+		F5A5A606146B5E79000063FE /* CryptoDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoDemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A5A5C8146B5324000063FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A5A5FA146B56CB000063FE /* Security.framework in Frameworks */,
+				F5A5A5D0146B5324000063FE /* UIKit.framework in Frameworks */,
+				F5A5A5D2146B5324000063FE /* Foundation.framework in Frameworks */,
+				F5A5A5D4146B5324000063FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5A5A5C0146B5324000063FE = {
+			isa = PBXGroup;
+			children = (
+				F5A5A5D5146B5324000063FE /* CryptoDemo */,
+				F5A5A5CE146B5324000063FE /* Frameworks */,
+				F5A5A5CC146B5324000063FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A5A5CC146B5324000063FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5A5CB146B5324000063FE /* CryptoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5A5A5CE146B5324000063FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5A5F9146B56CB000063FE /* Security.framework */,
+				F5A5A5CF146B5324000063FE /* UIKit.framework */,
+				F5A5A5D1146B5324000063FE /* Foundation.framework */,
+				F5A5A5D3146B5324000063FE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5A5A5D5146B5324000063FE /* CryptoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5A605146B5E78000063FE /* CryptoDemoViewController.h */,
+				F5A5A606146B5E79000063FE /* CryptoDemoViewController.m */,
+				F5A5A5DE146B5324000063FE /* CryptoDemoAppDelegate.h */,
+				F5A5A5DF146B5324000063FE /* CryptoDemoAppDelegate.m */,
+				F5A5A5F2146B5568000063FE /* CryptoExtension */,
+				F5A5A5D6146B5324000063FE /* Supporting Files */,
+			);
+			path = CryptoDemo;
+			sourceTree = "<group>";
+		};
+		F5A5A5D6146B5324000063FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5A5FF146B578C000063FE /* yaclife.pfx */,
+				F5A5A600146B578C000063FE /* yaclifecert.der */,
+				F5A5A601146B578C000063FE /* yaclifepubkey.der */,
+				F5A5A5E1146B5324000063FE /* MainWindow.xib */,
+				F5A5A5D7146B5324000063FE /* CryptoDemo-Info.plist */,
+				F5A5A5D8146B5324000063FE /* InfoPlist.strings */,
+				F5A5A5E7146B5325000063FE /* CryptoDemoViewController.xib */,
+				F5A5A5DB146B5324000063FE /* CryptoDemo-Prefix.pch */,
+				F5A5A5DC146B5324000063FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5A5A5F2146B5568000063FE /* CryptoExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5A5FB146B576F000063FE /* GTMBase64.h */,
+				F5A5A5FC146B576F000063FE /* GTMBase64.m */,
+				F5A5A5FD146B576F000063FE /* GTMDefines.h */,
+				F5A5A5EF146B5527000063FE /* CryptoExtension.h */,
+				F5A5A5F0146B5527000063FE /* CryptoExtension.m */,
+			);
+			name = CryptoExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A5A5CA146B5324000063FE /* CryptoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A5A5EC146B5325000063FE /* Build configuration list for PBXNativeTarget "CryptoDemo" */;
+			buildPhases = (
+				F5A5A5C7146B5324000063FE /* Sources */,
+				F5A5A5C8146B5324000063FE /* Frameworks */,
+				F5A5A5C9146B5324000063FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoDemo;
+			productName = CryptoDemo;
+			productReference = F5A5A5CB146B5324000063FE /* CryptoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5A5A5C2146B5324000063FE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F5A5A5C5146B5324000063FE /* Build configuration list for PBXProject "CryptoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5A5A5C0146B5324000063FE;
+			productRefGroup = F5A5A5CC146B5324000063FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5A5A5CA146B5324000063FE /* CryptoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A5A5C9146B5324000063FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A5A5DA146B5324000063FE /* InfoPlist.strings in Resources */,
+				F5A5A5E3146B5325000063FE /* MainWindow.xib in Resources */,
+				F5A5A5E9146B5325000063FE /* CryptoDemoViewController.xib in Resources */,
+				F5A5A602146B578C000063FE /* yaclife.pfx in Resources */,
+				F5A5A603146B578C000063FE /* yaclifecert.der in Resources */,
+				F5A5A604146B578C000063FE /* yaclifepubkey.der in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A5A5C7146B5324000063FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A5A5DD146B5324000063FE /* main.m in Sources */,
+				F5A5A5E0146B5324000063FE /* CryptoDemoAppDelegate.m in Sources */,
+				F5A5A5F1146B5528000063FE /* CryptoExtension.m in Sources */,
+				F5A5A5FE146B576F000063FE /* GTMBase64.m in Sources */,
+				F5A5A607146B5E7A000063FE /* CryptoDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5A5A5D8146B5324000063FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A5A5D9146B5324000063FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5A5A5E1146B5324000063FE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A5A5E2146B5324000063FE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F5A5A5E7146B5325000063FE /* CryptoDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A5A5E8146B5325000063FE /* en */,
+			);
+			name = CryptoDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5A5A5EA146B5325000063FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5A5A5EB146B5325000063FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F5A5A5ED146B5325000063FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CryptoDemo/CryptoDemo-Prefix.pch";
+				INFOPLIST_FILE = "CryptoDemo/CryptoDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5A5A5EE146B5325000063FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CryptoDemo/CryptoDemo-Prefix.pch";
+				INFOPLIST_FILE = "CryptoDemo/CryptoDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5A5A5C5146B5324000063FE /* Build configuration list for PBXProject "CryptoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A5A5EA146B5325000063FE /* Debug */,
+				F5A5A5EB146B5325000063FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A5A5EC146B5325000063FE /* Build configuration list for PBXNativeTarget "CryptoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A5A5ED146B5325000063FE /* Debug */,
+				F5A5A5EE146B5325000063FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5A5A5C2146B5324000063FE /* Project object */;
+}
